@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  #gameContainer {
+    text-align: center;
+  }
+
+  canvas {
+    border: 1px solid black;
+  }
+
+  #score {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  #gameOver {
+    display: none;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+  }
+
+  #controls {
+    margin-top: 20px;
+    text-align: center;
+  }
